@@ -1,77 +1,174 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
+
 a {
     display: inline-block;
     text-decoration: none;
 }
-.header{
+
+.header {
     background: #3941FF;
-    padding: 20px 0 ;
+    padding: 20px 0;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
-.header-container{
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.menu{
+
+.menu {
     list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.menu-item{
+
+.menu-item {
     font-weight: 500;
     font-size: 14px;
 }
-.menu-item a{
-    color:#fff;
+
+.menu-item a {
+    color: #fff;
     margin-left: 25px;
     font-family: Manrope, sans-serif;
     font-weight: 700;
     font-size: 14px;
 }
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
-.hero{
-    background: linear-gradient(114.08deg, #3941FF 13.97%, #00D1FF 100%), #FFFFFF;
-}
-.col-6{
-    width: 50%;
-    padding: 0 15px;
 
+.hero {
+    background: linear-gradient(114.08deg, #3941FF 13.97%, #00D1FF 100%), #FFFFFF;
+    padding-top: 166px;
 }
-.hero-title{
-    font-style: normal;
-    font-weight: normal;
+
+.hero-title {
+    font-weight: 400;
+    line-height: 70px;
     font-size: 64px;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 25px;
 }
-.hero-subtitle{
+
+.hero-desc {
     font-size: 18px;
-    text-transform: capitalize;
-    color: #FFFFFF;
-}
-.btn{
-    font-weight: bold;
-    font-size: 20px;
     line-height: 20px;
     text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 52px;
+}
+
+.btn {
     color: #3941FF;
     background: #FFFFFF;
     border-radius: 30px;
+    border: none;
+    width: 235px;
+    padding: 18px 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.services-title{
+    font-weight: 700;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #3941FF;
+    text-align: center;
+    padding: 67px 0 40px;
+}
+.services-item{
+    background: #FFFFFF;
+    border: 1px solid #3941FF;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.col-4{
+    width: 33.3333333%;
+    padding: 0 15px;
+}
+.services-img{
+    padding: 76px 140px;
+
+}
+.services-subtitle{
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #0008C7;
+}
+.services-desc{
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F52A2;
+    margin: 24px 45px 54px;
+}
+.help{
+    padding: 127px 0 170px;
+}
+.help-title{
+    font-size: 64px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #2E3E51;
+}
+.help-subtitle{
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: rgba(46, 62, 81, 0.74);
+    margin: 15px 0 32px;
+}
+.help-text{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #2E3E51;
+}
+.help-desc{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #3941FF;
+    align-items: center;
+}
+.help-item{
+    border: 3px solid;
+    background: #FFFFFF;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    padding: 32px 66px;
 }
