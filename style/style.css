@@ -188,4 +188,56 @@ a {
     color: #3941FF;
     align-items: center;
 }
+.help-btn{
+    height: 56px;
+    background: #3941FF;
+    border-radius: 30px;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer{
+    background: #3941FF;
+    padding: 57px 0 22px;
+}
+.feedback-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feedback{
+    display: flex;
+    align-items: center;
+}
+.feedback-input{
+    width: 215px;
+    height: 40px;
+    border: none;
+    padding: 0 15px;
+}
+.feedback-btn{
+    width: 46px;
+    height: 40px;
+    background-color: #F58F00;
+    border-radius: 0 30px 30px 0;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.feedback-title{
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.feedback-desc{
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-align: center;
+
+}
