@@ -159,7 +159,18 @@ a {
     font-size: 64px;
     text-transform: uppercase;
     color: #2E3E51;
-    margin-bottom: 15px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 14px;
+
+}
+.help-contain{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #2E3E51;
+    margin-bottom: 14px;
 }
 
 .help-subtitle {
@@ -169,13 +180,7 @@ a {
     margin-bottom: 32px;
 
 }
-.span{
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 50px;
-    text-transform: uppercase;
-    color: #2E3E51;
-}
+
 
 .help-pet {
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);
